@@ -1,0 +1,43 @@
+testGraph0
+OK: 3 vertices
+OK: 3 edges
+OK: DFS
+OK: BFS
+OK: Djisktra
+
+testGraph1
+Malformed line: 
+OK: 10 vertices
+OK: 9 edges
+OK: DFS
+OK: BFS
+OK: Djisktra
+
+testGraph2
+Malformed line: 
+OK: 21 vertices
+OK: 24 edges
+OK: DFS from A
+OK: DFS from O
+OK: BFS from A
+OK: BFS from D
+OK: DFS from U
+OK: BFS from U
+OK: Djisktra
+
+testGraphEdgeCases
+OK: Bad start DFS
+OK: Bad start BFS
+OK: Bad start Dijkstra
+OK: Disconnected DFS
+OK: Disconnected BFS
+    Got   
+ expected B(1) 
+ERR: Disconnected Dijkstra
+OK: Self edge prevention
+OK: First add
+OK: Duplicate add
+OK: Edge count after duplicate add
+Bad file name.
+ERR: Failed to handle missing file
+
